@@ -29,7 +29,7 @@ class Operator:
     def process(self, inputs: typing.List[Input], config: Config):
         from_characteristic = config.get_config_value("convertFrom")
         to_characteristic = config.get_config_value("convertTo")
-        config_value = json.loads(config.get_config_value("value"))
+        config_value = config.get_config_value("value")
         engine_url = config.get_config_value("url")
         event_id = config.get_config_value("eventId")
         input_value = inputs[0].current_value
