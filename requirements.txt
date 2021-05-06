@@ -1,0 +1,4 @@
+requests
+python-intervals
+git+https://github.com/SENERGY-Platform/converter@dev#subdirectory=cmd/python
+https://github.com/SENERGY-Platform/analytics-local-lib/archive/main.zip
