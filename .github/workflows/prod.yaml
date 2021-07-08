@@ -1,9 +1,10 @@
-name: '[builder] CI for releases'
+name: 'Prod'
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   multi:
     runs-on: ubuntu-latest
